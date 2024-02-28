@@ -25,7 +25,7 @@ span{
 /*for mobile devices*/
 @media (min-width: 319px) and (max-width: 481px){
 body{
-  margin: 10px 10px 0 50px
+  margin: 10px 10px 0 10px
 }
   .main{
     display: block;
@@ -60,7 +60,7 @@ body{
 
 @media (min-width: 481px) and (max-width: 700px){
 body{
-  margin: 10px 10px 0 50px
+  margin: 10px 10px 0 10px
 }
   .main{
     display: block;
