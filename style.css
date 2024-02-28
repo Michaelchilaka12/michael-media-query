@@ -28,7 +28,8 @@ span{
   .main{
     display: block;
     text-align: left;
-    margin-right:20px;
+    margin:0;
+    padding:0;
   }
   .logo{
     width: 100px;
