@@ -49,10 +49,12 @@ body{
   }
   .left{
   width: 300px;
+  padding-left:50px
   }
   
   .right{
     width: 300px;
+    padding-left:50px
   }
 
 
