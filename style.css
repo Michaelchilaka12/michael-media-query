@@ -1,0 +1,182 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+span{
+  color: blue;
+}
+
+/*for mobile devices*/
+@media (min-width: 319px) and (max-width: 481px){
+
+  .main{
+    display: block;
+    text-align: left;
+  }
+  .logo{
+    width: 100px;
+    height: 20px;
+    display: block;
+   }
+   h1{
+    display: block;
+    font-size: larger;
+   }
+  img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .left{
+  width: 300px;
+  }
+  
+  .right{
+    width: 300px;
+  }
+
+
+
+}
+/*for smaller tablets and ipad*/
+
+@media (min-width: 481px) and (max-width: 700px){
+
+  .main{
+    display: block;
+    text-align: left;
+  }
+  .logo{
+    width: 100px;
+    height: 20px;
+    display: block;
+   }
+   h1{
+    display: block;
+    font-size: larger;
+   }
+  img{
+    height: 100px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .left{
+  width: 180px;
+  float: left;
+  }
+  
+  .right{
+    width: 180px;
+    float: right;
+  }
+
+
+
+}
+
+/*for tablets and ipad*/
+@media (min-width: 701px) and (max-width: 1200px){
+  .main{
+    display: block;
+    text-align: left;
+  }
+  .logo{
+    width: 200px;
+    height: 30px;
+   }
+   h1{
+    text-align: center;
+   }
+  img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+  }
+  .left{
+  width: 300px;
+    float: left;
+  }
+  
+  .right{
+    width: 300px;
+    float: right;
+  }
+}
+/*for laptops*/
+@media (min-width: 1201px) and (max-width: 1600px){
+  .main{
+    display: inline-block;
+  }
+  .logo{
+    width: 300px;
+    height: 40px;
+   }
+   h1{
+    display: block;
+   }
+  img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+  }
+  .left{
+  width: 500px;
+    float: left;
+  }
+  
+  .right{
+    width: 500px;
+    float: right;
+  }
+}
+/*for destop*/
+@media (min-width: 1601px){
+  .main{
+    display: inline-block;
+  }
+  img{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+  }
+  .left{
+  width: 700px;
+    float: left;
+  }
+  
+  .right{
+    width: 700px;
+    float: right;
+  }
+  .logo{
+    width: 400px;
+    height: 50px;
+   }
+   h1{
+    display: block;
+   }
+   p{
+    font-size: 20px;
+    padding:0;
+   }
+}
+
